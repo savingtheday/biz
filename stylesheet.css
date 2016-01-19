@@ -13,70 +13,79 @@ html, body {
 	}
 
 	body{
-		background-color: white;
 		padding: 20px;
+		background-color: white;
 	}
 
 
 	#container{
 		width: 100%;
-		height: 600px;
-
+		height: 700px;
 	}
 
-
-/*	#containerTwo{
+/*
+	#containerTwo{
 		width: 100%;
-		height: 600px;
+		height: 700px;
 		display: inline-block;
 	}*/
 
 
 	#contact{
 		background-color: purple;
-		width: 30%;
-		height: 100%;
-		margin-right: 10px;
+		width: 40%;
+		height: 100.5%;
+		padding-right: 20px;
 		float: left;
+		margin-right: 1%;
+
 	}
 
 	#menu{
 		background-color: red;
-		width: 60%;
-		height: 40%;
+		width: 58%;
+		height: 25%;
 		float: left;
-		margin-left: 10px;
-		margin-bottom: 10px;
+		margin-left: 1%;
+		margin-bottom: 1%;
 	}
 
 	#facebook{
 		background-color: yellow;
-		width: 20%;
-		height: 27%;
+		width: 25%;
+		height: 34%;
 		float: left;
-		margin: 10px;
+		margin: 1%;
 	}
 
 	#instagram{
 		clear: right;
 		background-color: green;
-		width: 20%;
-		height: 27%;
-		margin: 2%, 2%, 2%, 2%;
+		width: 25%;
+		height: 34%;		
 		float: left;
+		margin: 1%;
 		position: relative;
-		top: 31.25%;
-		left: -20.75%;
+		left: -27%;
+		top: 38%;
 	}
 
 
 	#gallery{
 		background-color: orange;
-		height: 56.25%;
-		width: 38.5%;
+		height: 72%;
+		width: 31%;
 		float: left;
+		margin-top: 1%;
+		margin-left: 1%;
 		position: relative;
-		margin-top: 10px;
-		margin-left: 10px;
-		top: -26.75%;
+		left: 27%;
+		top: -37%;
 	}
+/*
+	#footer{
+		clear: left;
+		width: 100%;
+		background-color: blue;
+		height: 10%;
+	}*/
