@@ -15,59 +15,71 @@ html, body {
 	body{
 		padding: 20px;
 		background-color: white;
+
 	}
 
 
 	#container{
 		width: 100%;
-		height: 700px;
+		height: 600px;
 	}
 
 
 	#containerTwo{
 		width: 100%;
-		height: 700px;
+		height: 600px;
 		display: inline-block;
 	}
 
-
+	
 	#contact{
 		background-color: purple;
 		width: 40%;
-		height: 100%;
+		height: 60%;
 		padding-right: 20px;
-		float: left;
+		float: right;
 	}
 
-	#menu{
+	#menu {
+		background-color: pink;
+		width: 40%;
+		height: 60%;
+		padding-right: 20px;
+		float: left;
+
+	}
+
+	#intro{
 		background-color: red;
 		width: 60%;
-		height: 25%;
+		height: 30%;
 		float: left;
 		padding-bottom: 20px;
 	}
 
 	#facebook{
 		background-color: yellow;
-		width: 20%;
-		height: 20%;
+		width: 30%;
+		height: 30%;
 		padding-right: 20px;
 		float: left;
+		
 	}
 
 	#instagram{
-		clear: right;
 		background-color: green;
-		width: 20%;
-		height: 20%;
+		width: 30%;
+		height: 30%;
 		padding-right: 20px;
 		float: left;
+		
 	}
 
 
 	#gallery{
 		background-color: orange;
-		height: 75%;
-		width: 40%;
-		float: left;
+		height: 60%;
+		width: 60%;
+		float: right;
+		
 	}
