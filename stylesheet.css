@@ -1,6 +1,7 @@
 html, body {
     max-width: 100%;
     overflow-x: hidden;
+    font-family:'Economica', helvetica;
 }
 
 @media (min-width: 480px){
@@ -28,6 +29,7 @@ html, body {
 	
 	#contact{
 		background-color: #D95B43;
+		color: white;
 		width: 38%;
 		height: 58%;
 		float: right;
@@ -35,7 +37,12 @@ html, body {
 	}
 
 	#menu {
-		background-color: #542437;
+		
+		background-image: url('images/menuimage.jpg');
+		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+	 	-o-background-size: cover;
+	 	 background-size: cover;
 		width: 38%;
 		height: 58%;
 		float: left;
@@ -43,7 +50,11 @@ html, body {
 	}
 
 	#intro{
-		background-color: red;
+		background-color: black;
+		color: white;
+		font-size: 20px;
+		padding: 10px;
+		font-family: 'Economica', helvetica;
 		width: 58%;
 		height: 28%;
 		margin: 1%;
@@ -51,15 +62,24 @@ html, body {
 	}
 
 	#facebook{
-		background-color: #53777A;
-		width: 28%;
+		background-image: url(images/facebook.png);
+		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+	 	-o-background-size: cover;
+	 	 background-size: 40px;
+		color: white;
+		width: 24%;
 		height: 28%;
 		float: left;
 		margin: 1%;
 	}
 
 	#instagram{
-		background-color: #C02942;
+		background-image: url(images/instagram.png);
+		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+	 	-o-background-size: cover;
+		color: white;
 		width: 28%;
 		height: 28%;
 		float: left;
@@ -68,9 +88,17 @@ html, body {
 
 
 	#gallery{
-		background-color: orange;
+		background-image: url('images/galleryimage.jpg');
+		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+	 	-o-background-size: cover;
+	 	 background-size: cover;
 		height: 58%;
 		width: 58%;
 		float: right;
 		margin: 1%;
+	}
+
+	a:hover{
+		cursor: pointer;
 	}
