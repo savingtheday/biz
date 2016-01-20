@@ -14,7 +14,7 @@ html, body {
 
 	body{
 		padding: 20px;
-		background-color: white;
+		background-color: #ECD078;
 
 	}
 
@@ -25,61 +25,52 @@ html, body {
 	}
 
 
-	#containerTwo{
-		width: 100%;
-		height: 600px;
-		display: inline-block;
-	}
-
 	
 	#contact{
-		background-color: purple;
-		width: 40%;
-		height: 60%;
-		padding-right: 20px;
+		background-color: #D95B43;
+		width: 38%;
+		height: 58%;
 		float: right;
+		margin: 1%;
 	}
 
 	#menu {
-		background-color: pink;
-		width: 40%;
-		height: 60%;
-		padding-right: 20px;
+		background-color: #542437;
+		width: 38%;
+		height: 58%;
 		float: left;
-
+		margin: 1%;
 	}
 
 	#intro{
 		background-color: red;
-		width: 60%;
-		height: 30%;
+		width: 58%;
+		height: 28%;
+		margin: 1%;
 		float: left;
-		padding-bottom: 20px;
 	}
 
 	#facebook{
-		background-color: yellow;
-		width: 30%;
-		height: 30%;
-		padding-right: 20px;
+		background-color: #53777A;
+		width: 28%;
+		height: 28%;
 		float: left;
-		
+		margin: 1%;
 	}
 
 	#instagram{
-		background-color: green;
-		width: 30%;
-		height: 30%;
-		padding-right: 20px;
+		background-color: #C02942;
+		width: 28%;
+		height: 28%;
 		float: left;
-		
+		margin: 1%;	
 	}
 
 
 	#gallery{
 		background-color: orange;
-		height: 60%;
-		width: 60%;
+		height: 58%;
+		width: 58%;
 		float: right;
-		
+		margin: 1%;
 	}
