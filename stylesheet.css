@@ -36,7 +36,32 @@ html, body {
 		margin: 1%;
 	}
 
-	#menu {
+	#foodstuffs{
+		font-size: 47px;
+		font-family: 'Pacifico', cursive;
+	}
+
+	#thankGod{
+		font-size: 57px;			
+		font-family: 'Amatic SC', cursive;
+
+	}
+
+	#beerMenu{
+		font-family: 'Varela Round', sans-serif;
+		background-color: #542437;
+		color: white;
+		width: 38%;
+		height: 58%;
+		float: right;
+		margin: 1%;
+		font-size: 32px;
+		text-align: center;
+		padding: 1%;
+		padding-top: 4%;
+	}
+
+	#menu{
 		
 		background-image: url('images/menuimage.jpg');
 		-webkit-background-size: cover;
@@ -47,6 +72,35 @@ html, body {
 		height: 58%;
 		float: left;
 		margin: 1%;
+		padding: 9%;
+		font-size: 80px;
+		text-align: center;
+		color: white;
+		font-family: 'Pacifico', cursive;
+	}
+
+	#menu a:link{
+		text-decoration: none;
+		color: white;
+	}
+
+	#menu a:visited{
+		text-decoration: none;
+		color: white;
+	}
+
+
+	#foodMenu {		
+		background-color: #53777A;
+		width: 38%;
+		height: 58%;
+		float: left;
+		margin: 1%;
+		color: white;
+		font-size: 25px;
+		text-align: center;
+		padding: 1%;
+		font-family: 'Montserrat', sans-serif;
 	}
 
 	#intro{
@@ -60,6 +114,34 @@ html, body {
 		margin: 1%;
 		float: left;
 	}
+
+	#picLeftMenu{
+		background-image: url('images/kimchislider.jpeg');
+		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+	 	-o-background-size: cover;
+	 	 background-size: cover;
+		color: white;
+		width: 24%;
+		height: 28%;
+		float: left;
+		margin: 1%;
+	}
+
+	#picRightMenu{
+		background-image: url('images/pickles.jpeg');
+		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+	 	-o-background-size: cover;
+	 	 background-size: cover;
+		color: white;
+		width: 28%;
+		height: 28%;
+		float: left;
+		margin: 1%;	
+	}
+
+
 
 	#facebook{
 		background-image: url(images/facebook.png);
@@ -97,6 +179,21 @@ html, body {
 		width: 58%;
 		float: right;
 		margin: 1%;
+	}
+
+
+	#beerList{
+		background-color: #C02942;
+		height: 58%;
+		width: 58%;
+		float: right;
+		margin: 1%;
+		color: white;
+		font-family: 'Varela Round', sans-serif;
+		padding: 3%;
+		font-size: 50px;
+		text-align: center;
+		padding-top: 10%;
 	}
 
 	a:hover{
