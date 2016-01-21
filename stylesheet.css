@@ -15,7 +15,7 @@ html, body {
 
 	body{
 		padding: 20px;
-		background-color: #ECD078;
+		background-color: #4e0000;
 
 	}
 
@@ -148,7 +148,7 @@ html, body {
 		-webkit-background-size: cover;
   		-moz-background-size: cover;
 	 	-o-background-size: cover;
-	 	 background-size: 40px;
+	 	 background-size: cover;
 		color: white;
 		width: 24%;
 		height: 28%;
@@ -170,6 +170,7 @@ html, body {
 
 
 	#gallery{
+		font-family: 'Pacifico', cursive;
 		background-image: url('images/galleryimage.jpg');
 		-webkit-background-size: cover;
   		-moz-background-size: cover;
@@ -179,8 +180,28 @@ html, body {
 		width: 58%;
 		float: right;
 		margin: 1%;
+		padding: 9%;
+		font-size: 80px;
+		text-align: center;
 	}
 
+	#gallery a:link{
+		text-decoration: none;
+		color: white;
+
+	}
+
+	#gallery a:visited{
+		text-decoration: none;
+		color: white;
+	
+	}
+
+
+
+	img{
+		padding-bottom: 15px;
+	}
 
 	#beerList{
 		background-color: #C02942;
@@ -198,8 +219,4 @@ html, body {
 
 	a:hover{
 		cursor: pointer;
-<<<<<<< HEAD
-	}
-=======
-	}
->>>>>>> da824effedbaa789b46c6e9cc36525500b4c1868
+}
