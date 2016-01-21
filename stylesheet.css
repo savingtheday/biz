@@ -15,7 +15,7 @@ html, body {
 
 	body{
 		padding: 20px;
-		background-color: #4e0000;
+		background-color: white;
 
 	}
 
@@ -52,7 +52,7 @@ html, body {
 		background-color: #542437;
 		color: white;
 		width: 38%;
-		height: 58%;
+		height: 59%;
 		float: right;
 		margin: 1%;
 		font-size: 32px;
@@ -104,12 +104,12 @@ html, body {
 	}
 
 	#intro{
-		background-color: black;
-		color: white;
-		font-size: 20px;
+		background-color: white;
+		color: #ff8d00;
+		font-size: 80px;
 		padding: 10px;
-		font-family: 'Economica', helvetica;
-		width: 58%;
+		font-family: 'Pacifico', helvetica;
+		width: 54%;
 		height: 28%;
 		margin: 1%;
 		float: left;
