@@ -148,12 +148,14 @@ html, body {
 		-webkit-background-size: cover;
   		-moz-background-size: cover;
 	 	-o-background-size: cover;
-	 	 background-size: cover;
-		color: white;
-		width: 24%;
+	 	 background-size: no-repeat; 
+	 	max-width: 160px;
+	 	max-height: 160px;
+		width: 28%;
 		height: 28%;
 		float: left;
 		margin: 1%;
+		padding-right: 40px;
 	}
 
 	#instagram{
@@ -161,13 +163,44 @@ html, body {
 		-webkit-background-size: cover;
   		-moz-background-size: cover;
 	 	-o-background-size: cover;
-		color: white;
+	 	 background-size: no-repeat; 
+	 	max-width: 160px;
+	 	max-height: 160px;
 		width: 28%;
 		height: 28%;
 		float: left;
 		margin: 1%;	
 	}
 
+	#foursquare{
+		background-image: url(images/foursquare.png);
+		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+	 	-o-background-size: cover;
+	 	 background-size: no-repeat; 
+	 	max-width: 160px;
+	 	max-height: 160px;
+		width: 28%;
+		height: 28%;
+		float: left;
+		margin: 1%;
+		padding-right: 40px;
+	}
+
+	#twitter{
+		background-image: url(images/twitter.png);
+		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+	 	-o-background-size: cover;
+	 	 background-size: no-repeat; 
+	 	max-width: 160px;
+	 	max-height: 160px;
+		width: 28%;
+		height: 28%;
+		float: left;
+		margin: 1%;
+		padding-right: 40px;
+	}
 
 	#gallery{
 		font-family: 'Pacifico', cursive;
