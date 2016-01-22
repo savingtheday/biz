@@ -2,27 +2,15 @@ html, body {
     max-width: 100%;
     overflow-x: hidden;
     font-family:'Economica', helvetica;
-}
-
-@media (min-width: 480px){
-
-
-	* {
-	  -webkit-box-sizing: border-box;
-	     -moz-box-sizing: border-box;
-	          box-sizing: border-box;
-	}
-
-	body{
-		padding: 20px;
-		background-color: white;
+	padding: 20px;
+	background-color: white;
 
 	}
 
 
 	#container{
 		width: 100%;
-		height: 600px;
+		height: 100%;
 	}
 
 
@@ -30,10 +18,13 @@ html, body {
 	#contact{
 		background-color: #D95B43;
 		color: white;
-		width: 38%;
 		height: 58%;
+		width: 38%;
 		float: right;
 		margin: 1%;
+		padding: 10%;
+		font-size: 80px;
+		text-align: center;
 	}
 
 	#foodstuffs{
@@ -103,12 +94,17 @@ html, body {
 		font-family: 'Montserrat', sans-serif;
 	}
 
+	h2{
+		font-family: 'Pacifico', cursive;
+		font-size: 40px;
+	}
+
 	#intro{
 		background-color: white;
 		color: #ff8d00;
-		font-size: 80px;
-		padding: 10px;
-		font-family: 'Pacifico', helvetica;
+		font-size: 20px;
+		padding: 2px;
+		font-family: 'Montserrat', helvetica;
 		width: 54%;
 		height: 28%;
 		margin: 1%;
@@ -133,7 +129,7 @@ html, body {
 		-webkit-background-size: cover;
   		-moz-background-size: cover;
 	 	-o-background-size: cover;
-	 	 background-size: cover;
+	 	background-size: cover;
 		color: white;
 		width: 28%;
 		height: 28%;
@@ -148,28 +144,24 @@ html, body {
 		-webkit-background-size: cover;
   		-moz-background-size: cover;
 	 	-o-background-size: cover;
-	 	 background-size: no-repeat; 
-	 	max-width: 160px;
-	 	max-height: 160px;
-		width: 28%;
-		height: 28%;
+	 	background-size: no-repeat; 
+	 	width: 100px;
+	 	height: 100px;
 		float: left;
 		margin: 1%;
-		padding-right: 40px;
 	}
 
 	#instagram{
-		background-image: url(images/instagram.png);
+		background-image: url('images/instagram.png');
 		-webkit-background-size: cover;
   		-moz-background-size: cover;
 	 	-o-background-size: cover;
-	 	 background-size: no-repeat; 
-	 	max-width: 160px;
-	 	max-height: 160px;
-		width: 28%;
-		height: 28%;
+	 	background-size: no-repeat;
+	 	width: 100px;
+	 	height: 100px; 
 		float: left;
-		margin: 1%;	
+		margin: 1%;
+	 	
 	}
 
 	#foursquare{
@@ -177,14 +169,12 @@ html, body {
 		-webkit-background-size: cover;
   		-moz-background-size: cover;
 	 	-o-background-size: cover;
-	 	 background-size: no-repeat; 
-	 	max-width: 160px;
-	 	max-height: 160px;
-		width: 28%;
-		height: 28%;
+	 	background-size: no-repeat; 
+	 	width: 100px;
+	 	height: 100px;
 		float: left;
 		margin: 1%;
-		padding-right: 40px;
+	 
 	}
 
 	#twitter{
@@ -192,14 +182,13 @@ html, body {
 		-webkit-background-size: cover;
   		-moz-background-size: cover;
 	 	-o-background-size: cover;
-	 	 background-size: no-repeat; 
-	 	max-width: 160px;
-	 	max-height: 160px;
-		width: 28%;
-		height: 28%;
+	 	background-size: no-repeat; 
+	 	width: 100px;
+	 	height: 100px;
 		float: left;
 		margin: 1%;
-		padding-right: 40px;
+		
+	 	
 	}
 
 	#gallery{
@@ -209,7 +198,7 @@ html, body {
   		-moz-background-size: cover;
 	 	-o-background-size: cover;
 	 	 background-size: cover;
-		height: 58%;
+		height: 100%;
 		width: 58%;
 		float: right;
 		margin: 1%;
