@@ -1,28 +1,19 @@
 html, body {
-    max-width: 100%;
-    overflow-x: hidden;
+   	width: auto;
+   	height: auto;
     font-family:'Economica', helvetica;
 	padding: 20px;
 	background-color: white;
 
 	}
 
-
-	#container{
-		width: 100%;
-		height: 100%;
-	}
-
-
-	
-	#contact{
+	.contact{
+		font-family: 'Pacifico', cursive;
 		background-color: #D95B43;
 		color: white;
-		height: 58%;
-		width: 38%;
 		float: right;
 		margin: 1%;
-		padding: 10%;
+		padding: 15%;
 		font-size: 80px;
 		text-align: center;
 	}
@@ -42,15 +33,27 @@ html, body {
 		font-family: 'Varela Round', sans-serif;
 		background-color: #542437;
 		color: white;
-		width: 38%;
-		height: 59%;
 		float: right;
-		margin: 1%;
 		font-size: 32px;
 		text-align: center;
 		padding: 1%;
 		padding-top: 4%;
 	}
+
+	.beerOffering{
+		font-family: 'Varela Round', sans-serif;
+		background-color: #D95B43;
+		width: 40%;
+		height: 80%;
+		color: white;
+		float: right;
+		margin: 1%;
+		padding: 10px;
+		font-size: 50px;
+		text-align: center;
+	}
+
+
 
 	#menu{
 		
@@ -59,20 +62,20 @@ html, body {
   		-moz-background-size: cover;
 	 	-o-background-size: cover;
 	 	 background-size: cover;
-		width: 38%;
-		height: 58%;
 		float: left;
 		margin: 1%;
-		padding: 9%;
+		padding: 10%;
 		font-size: 80px;
 		text-align: center;
 		color: white;
 		font-family: 'Pacifico', cursive;
+
 	}
 
 	#menu a:link{
 		text-decoration: none;
 		color: white;
+		position: relative;
 	}
 
 	#menu a:visited{
@@ -83,8 +86,8 @@ html, body {
 
 	#foodMenu {		
 		background-color: #53777A;
-		width: 38%;
-		height: 58%;
+		width: 55%;
+		height: 80%;
 		float: left;
 		margin: 1%;
 		color: white;
@@ -92,6 +95,7 @@ html, body {
 		text-align: center;
 		padding: 1%;
 		font-family: 'Montserrat', sans-serif;
+
 	}
 
 	h2{
@@ -99,16 +103,14 @@ html, body {
 		font-size: 40px;
 	}
 
-	#intro{
+	.intro{
 		background-color: white;
-		color: #ff8d00;
 		font-size: 20px;
 		padding: 2px;
-		font-family: 'Montserrat', helvetica;
-		width: 54%;
-		height: 28%;
+		font-family: helvetica;
 		margin: 1%;
 		float: left;
+		display: inline;
 	}
 
 	#picLeftMenu{
@@ -118,8 +120,8 @@ html, body {
 	 	-o-background-size: cover;
 	 	 background-size: cover;
 		color: white;
-		width: 24%;
-		height: 28%;
+		width: 300px;
+		height: 200px;
 		float: left;
 		margin: 1%;
 	}
@@ -131,10 +133,10 @@ html, body {
 	 	-o-background-size: cover;
 	 	background-size: cover;
 		color: white;
-		width: 28%;
-		height: 28%;
+		width: 300px;
+		height: 200px;
 		float: left;
-		margin: 1%;	
+		margin: 1%;
 	}
 
 
@@ -198,8 +200,7 @@ html, body {
   		-moz-background-size: cover;
 	 	-o-background-size: cover;
 	 	 background-size: cover;
-		height: 100%;
-		width: 58%;
+		
 		float: right;
 		margin: 1%;
 		padding: 9%;
@@ -210,6 +211,7 @@ html, body {
 	#gallery a:link{
 		text-decoration: none;
 		color: white;
+		position: relative;
 
 	}
 
