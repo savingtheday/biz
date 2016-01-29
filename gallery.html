@@ -3,7 +3,9 @@
 	<head>
 		<title>Beach Brewery</title>
 		<meta charset="utf-8"/>
-		<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+		<link href="justifiedGallery.min.css" rel="stylesheet" type="text/css">
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
@@ -21,20 +23,48 @@
 	</head>
 <body>
 	<div class="container">
-		<div class="row">
-			<div class="col-md-6 col-xs-6">
-				<img src="images/one.png" class="img-responsive" alt="Responsive image"></a>
-				<img src="images/two.png" class="img-responsive" alt="Responsive image"></a>
-				<img src="images/three.png" class="img-responsive" alt="Responsive image"></a>
-				<img src="images/four.png" class="img-responsive" alt="Responsive image"></a>
-			</div>
-			<div class="col-xs-4"></div>
-			<div class="col-md-6 col-xs-6">
-				<img src="images/five.png" class="img-responsive" alt="Responsive image"></a>
-				<img src="images/six.png" class="img-responsive" alt="Responsive image"></a>
-				<img src="images/seven.png" class="img-responsive" alt="Responsive image"></a>
-				<img src="images/eight.png" class="img-responsive" alt="Responsive image"></a>
-			</div>
-		</div>
+
+
+
+						<div id="mygallery" >
+					    <a href="images/one.png">
+					        <img alt="Enjoy our seasonal barley wines" src="images/one.png"/>
+					    </a>
+					    <a href="images/two.png">
+					        <img alt="Our bar" src="images/two.png"/>
+					    </a>					    
+					    <a href="images/beach.jpeg">
+					        <img alt="Wildwood bonfire" src="images/beach.jpeg"/>
+					    </a>					    
+					    <a href="images/three.png">
+					        <img alt="Sometimes we even brew spirits!" src="images/three.png"/>
+					    </a>
+					    <a href="images/four.png">
+					        <img alt="Xmas" src="images/four.png"/>
+					    </a>
+					    <a href="images/five.png">
+					        <img alt="Before opening..." src="images/five.png"/>
+					    </a>
+					    <a href="images/cheese.jpeg">
+					        <img alt="BYOC" src="images/cheese.jpeg"/>
+					    </a>					    
+					    <a href="images/six.png">
+					        <img alt="Good friends..." src="images/six.png"/>
+					    </a>
+					    <a href="images/seven.png">
+					        <img alt="...and good times" src="images/seven.png"/>
+					    </a>
+					    <a href="images/eight.png">
+					        <img alt="A Hefe deserves 22oz glasses" src="images/eight.png"/>
+					    </a>					    
+					    <!-- other images... -->
+					</div>
+
+
+		<script src="jquery.justifiedGallery.min.js"></script>
+		<script>
+			$("#mygallery").justifiedGallery();
+			</script>
+
 </body>
 </html>
